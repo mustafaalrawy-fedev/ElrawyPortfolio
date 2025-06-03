@@ -1,0 +1,73 @@
+// Hero Icons
+import {
+	SparklesIcon,
+	BriefcaseIcon,
+	ArrowPathIcon,
+	CodeBracketIcon,
+	EnvelopeIcon,
+	UserIcon,
+	AcademicCapIcon,
+} from '@heroicons/react/24/solid';
+import { PhoneIcon } from '@heroicons/react/24/outline';
+// Font Awesome Icons
+import { FaClipboardUser } from 'react-icons/fa6';
+import {
+	FaHtml5,
+	FaCss3Alt,
+	FaJs,
+	FaReact,
+	FaGitAlt,
+	FaPhp,
+	FaPalette,
+	FaLaptopCode,
+	FaInfoCircle,
+	FaMailBulk,
+	FaMobileAlt,
+	FaArrowAltCircleRight,
+} from 'react-icons/fa';
+// Simple Icons
+import {
+	SiNextdotjs,
+	SiTailwindcss,
+	SiTypescript,
+	SiFramer,
+	SiRedux,
+	SiReactrouter,
+	SiMysql,
+	SiFigma,
+	SiGithub,
+	SiNetlify,
+} from 'react-icons/si';
+export {
+	FaHtml5,
+	FaCss3Alt,
+	FaJs,
+	FaReact,
+	FaGitAlt,
+	FaPhp,
+	SiNextdotjs,
+	SiTailwindcss,
+	SiTypescript,
+	SiFramer,
+	SiRedux,
+	SiReactrouter,
+	SiMysql,
+	SiFigma,
+	SiGithub,
+	FaMailBulk,
+	FaMobileAlt,
+	SiNetlify,
+	SparklesIcon,
+	BriefcaseIcon,
+	ArrowPathIcon,
+	CodeBracketIcon,
+	EnvelopeIcon,
+	PhoneIcon,
+	UserIcon,
+	AcademicCapIcon,
+	FaPalette,
+	FaLaptopCode,
+	FaInfoCircle,
+	FaClipboardUser,
+	FaArrowAltCircleRight,
+};

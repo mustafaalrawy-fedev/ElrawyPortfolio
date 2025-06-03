@@ -1,0 +1,62 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+html {
+	scroll-behavior: smooth;
+}
+button {
+	@apply cursor-pointer;
+}
+
+@theme {
+	/* main bg color */
+	--color-mainBgColor: #ecf0f1;
+	/* --color-darkMainBgColor: #0f111a; */
+	/* --color-darkMainBgColor: #020618; */
+	--color-darkMainBgColor: #18181b;
+	/* --color-darkMainBgColor: #09090b; */
+
+	/* tooltip */
+	/* gray-950 */
+	--color-tooltipHoverBgColor: #09090b;
+	/* gray-300 */
+	--color-darkTooltipHoverBgColor: #d1d5dc;
+	/* Main Btn Color */
+	--color-darkBtnBgColor: #7ccf00;
+	--color-btnBgColor: #00a6f4;
+
+	--animate-dodge: dodge 0.5s infinite;
+}
+
+@layer components {
+	.container {
+		@apply min-w-full px-5 sm:px-10;
+	}
+	.main-gradient-text {
+		@apply bg-gradient-to-r dark:bg-gradient-to-l from-lime-500 to-sky-500 bg-clip-text text-transparent;
+	}
+	.main-gradient-background {
+		@apply bg-gradient-to-r from-lime-500 to-sky-500;
+	}
+	.main-section-space {
+		/* @apply mt-10 my-20 py-10; */
+		@apply mt-10 mb-14 py-10;
+	}
+	.main-heading {
+		@apply text-3xl font-bold mb-6 text-black dark:text-white tracking-[5px] flex justify-center items-center;
+	}
+	.main-transition {
+		@apply transition-colors duration-500;
+	}
+}
+
+@keyframes dodge {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(10px);
+	}
+}

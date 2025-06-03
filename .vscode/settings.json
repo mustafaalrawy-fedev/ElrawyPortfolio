@@ -1,0 +1,6 @@
+{
+    "reactSnippets.settings.prettierEnabled": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.useTabs": true,
+    "workbench.colorTheme": "Default Dark Modern"
+}
