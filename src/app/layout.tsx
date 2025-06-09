@@ -19,7 +19,7 @@ export default function RootLayout({
 	return (
 		<html lang='en' data-theme='light'>
 			<body
-				className={`${interFont.className} ${openSansFont.className} antialiased bg-mainBgColor dark:bg-darkMainBgColor h-full main-transition`}
+				className={`${interFont.className} ${openSansFont.className} antialiased bg-mainBgColor dark:bg-darkMainBgColor h-full main-transition overflow-x-hidden`}
 			>
 				<ThemeProvider>
 					<SplashScreen>

@@ -10,6 +10,8 @@ import {
 	roomWebsiteImg,
 	medicalSiteImg,
 	spaceTourismImg,
+	weatherAppLightImg,
+	weatherAppDarkImg,
 } from './images';
 // Icons
 import {
@@ -22,9 +24,12 @@ import {
 	SiRedux,
 	SiReactrouter,
 	SiNetlify,
+	SiAxios,
+	FaGear,
 } from './icons';
 
 const projectsData = [
+	// Start Todo App
 	{
 		title: 'Todo App',
 		description:
@@ -43,6 +48,8 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End Todo App
+	// Start Calculator App
 	{
 		title: 'Calculator App',
 		description:
@@ -61,6 +68,31 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End Calculator App
+	// Start Weather App
+	{
+		title: 'Weather App',
+		description:
+			'A weather application that provides real-time weather information for any location. Built with React and integrates with OpenWeatherMap API. Features include current weather conditions, hourly forecasts, and 5-day forecasts. Implements responsive design with Tailwind CSS and includes both light and dark mode theming.',
+		codeLink: 'https://github.com/mustafaalrawy-fedev/weatherApp',
+		liveLink: 'https://elrawyweatherapp.netlify.app/',
+		imageSrcLight: weatherAppLightImg,
+		imageSrcDark: weatherAppDarkImg,
+		// imageSrc: theme === 'light' ? weatherAppLightImg : weatherAppDarkImg,
+		imageAlt: 'Weather App Alt',
+		tools: [
+			{ name: 'React', Icon: FaReact },
+			{ name: 'Redux-Toolkit', Icon: SiRedux },
+			{ name: 'Axios', Icon: SiAxios },
+			{ name: 'Tailwind CSS', Icon: SiTailwindcss },
+			{ name: 'Framer Motion', Icon: SiFramer },
+			{ name: 'API', Icon: FaGear },
+			{ name: 'Git & GitHub', Icon: FaGitAlt },
+			{ name: 'Netlify', Icon: SiNetlify },
+		],
+	},
+	// End Weather App
+	// Start ECommerce Website
 	{
 		title: 'ECommerce Website',
 		description:
@@ -83,6 +115,8 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End ECommerce Website
+	// Start IP Address Tracker
 	{
 		title: 'IP Address Tracker',
 		description:
@@ -101,6 +135,8 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End IP Address Tracker
+	// Start Room Website
 	{
 		title: 'Room Website',
 		description:
@@ -121,6 +157,8 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End Room Website
+	// Start Space Tourism Website
 	{
 		title: 'Space Tourism Website',
 		description:
@@ -140,6 +178,8 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End Space Tourism Website
+	// Start Medical Website
 	{
 		title: 'Medical Website',
 		description:
@@ -159,6 +199,7 @@ const projectsData = [
 			{ name: 'Netlify', Icon: SiNetlify },
 		],
 	},
+	// End Medical Website
 ];
 
 export default projectsData;

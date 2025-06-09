@@ -25,6 +25,7 @@ import {
 	FaMobileAlt,
 	FaArrowAltCircleRight,
 } from 'react-icons/fa';
+import { FaGear } from 'react-icons/fa6';
 // Simple Icons
 import {
 	SiNextdotjs,
@@ -37,14 +38,9 @@ import {
 	SiFigma,
 	SiGithub,
 	SiNetlify,
+	SiAxios,
 } from 'react-icons/si';
 export {
-	FaHtml5,
-	FaCss3Alt,
-	FaJs,
-	FaReact,
-	FaGitAlt,
-	FaPhp,
 	SiNextdotjs,
 	SiTailwindcss,
 	SiTypescript,
@@ -57,6 +53,7 @@ export {
 	FaMailBulk,
 	FaMobileAlt,
 	SiNetlify,
+	SiAxios,
 	SparklesIcon,
 	BriefcaseIcon,
 	ArrowPathIcon,
@@ -65,9 +62,16 @@ export {
 	PhoneIcon,
 	UserIcon,
 	AcademicCapIcon,
+	FaHtml5,
+	FaCss3Alt,
+	FaJs,
+	FaReact,
+	FaGitAlt,
+	FaPhp,
 	FaPalette,
 	FaLaptopCode,
 	FaInfoCircle,
 	FaClipboardUser,
 	FaArrowAltCircleRight,
+	FaGear,
 };

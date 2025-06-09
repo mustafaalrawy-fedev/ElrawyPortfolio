@@ -9,6 +9,8 @@ import roomWebsiteImg from '@/app/assets/RoomWebsiteImg.png';
 import medicalSiteImg from '@/app/assets/medicalSiteWebsite.png';
 import spaceTourismImg from '@/app/assets/spaceTourismWebsite.png';
 import profileImg from '@/app/assets/ProfilePhoto.jpg';
+import weatherAppLightImg from '@/app/assets/weatherAppLightMode.png';
+import weatherAppDarkImg from '@/app/assets/weatherAppDarkMode.png';
 
 export {
 	todoAppLightImg,
@@ -22,4 +24,6 @@ export {
 	medicalSiteImg,
 	spaceTourismImg,
 	profileImg,
+	weatherAppLightImg,
+	weatherAppDarkImg,
 };
