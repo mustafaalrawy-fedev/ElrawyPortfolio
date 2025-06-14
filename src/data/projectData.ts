@@ -79,7 +79,7 @@ const projectsData = [
 		description:
 			'A translation application that allows users to translate text between different languages. Built with React and integrates with Translate API. Features include real-time translation, multiple language support, Voice to Text, responsive design, and a clean user interface. Implements Tailwind CSS for styling.',
 		codeLink: 'https://github.com/mustafaalrawy-fedev/elrawyTranslateApp',
-		liveLink: 'hhttps://elrawytranslateapp.netlify.app/',
+		liveLink: 'https://elrawytranslateapp.netlify.app/',
 		imageSrcLight: translateAppImg,
 		imageSrcDark: translateAppImg,
 		// imageSrc: theme === 'light' ? translateAppImg : translateAppImg,
