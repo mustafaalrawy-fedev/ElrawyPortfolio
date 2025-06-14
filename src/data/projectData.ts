@@ -12,6 +12,7 @@ import {
 	spaceTourismImg,
 	weatherAppLightImg,
 	weatherAppDarkImg,
+	translateAppImg,
 } from './images';
 // Icons
 import {
@@ -49,26 +50,6 @@ const projectsData = [
 		],
 	},
 	// End Todo App
-	// Start Calculator App
-	{
-		title: 'Calculator App',
-		description:
-			'A modern calculator application built with React. Features include basic arithmetic operations, responsive design, and a clean user interface. Implements Tailwind CSS for styling and includes both light and dark mode themes.',
-		codeLink: 'https://github.com/mustafaalrawy-fedev/Calculator-App',
-		liveLink: 'https://elrawycalculatorapp.netlify.app/',
-		imageSrcLight: calculatorLightImg,
-		imageSrcDark: calculatorDarkImg,
-		// imageSrc: theme === 'light' ? calculatorLightImg : calculatorDarkImg,
-		imageAlt: 'Calculator App',
-		tools: [
-			{ name: 'React', Icon: FaReact },
-			{ name: 'Tailwind CSS', Icon: SiTailwindcss },
-			{ name: 'Framer Motion', Icon: SiFramer },
-			{ name: 'Git & GitHub', Icon: FaGitAlt },
-			{ name: 'Netlify', Icon: SiNetlify },
-		],
-	},
-	// End Calculator App
 	// Start Weather App
 	{
 		title: 'Weather App',
@@ -92,6 +73,49 @@ const projectsData = [
 		],
 	},
 	// End Weather App
+	// Start Translate App
+	{
+		title: 'Translate App',
+		description:
+			'A translation application that allows users to translate text between different languages. Built with React and integrates with Translate API. Features include real-time translation, multiple language support, Voice to Text, responsive design, and a clean user interface. Implements Tailwind CSS for styling.',
+		codeLink: 'https://github.com/mustafaalrawy-fedev/elrawyTranslateApp',
+		liveLink: 'hhttps://elrawytranslateapp.netlify.app/',
+		imageSrcLight: translateAppImg,
+		imageSrcDark: translateAppImg,
+		// imageSrc: theme === 'light' ? translateAppImg : translateAppImg,
+		imageAlt: 'Translate App Alt',
+		tools: [
+			{ name: 'React', Icon: FaReact },
+			{ name: 'Redux-Toolkit', Icon: SiRedux },
+			{ name: 'Axios', Icon: SiAxios },
+			{ name: 'Tailwind CSS', Icon: SiTailwindcss },
+			{ name: 'Framer Motion', Icon: SiFramer },
+			{ name: 'API', Icon: FaGear },
+			{ name: 'Git & GitHub', Icon: FaGitAlt },
+			{ name: 'Netlify', Icon: SiNetlify },
+		],
+	},
+	// End Translate App
+	// Start Calculator App
+	{
+		title: 'Calculator App',
+		description:
+			'A modern calculator application built with React. Features include basic arithmetic operations, responsive design, and a clean user interface. Implements Tailwind CSS for styling and includes both light and dark mode themes.',
+		codeLink: 'https://github.com/mustafaalrawy-fedev/Calculator-App',
+		liveLink: 'https://elrawycalculatorapp.netlify.app/',
+		imageSrcLight: calculatorLightImg,
+		imageSrcDark: calculatorDarkImg,
+		// imageSrc: theme === 'light' ? calculatorLightImg : calculatorDarkImg,
+		imageAlt: 'Calculator App',
+		tools: [
+			{ name: 'React', Icon: FaReact },
+			{ name: 'Tailwind CSS', Icon: SiTailwindcss },
+			{ name: 'Framer Motion', Icon: SiFramer },
+			{ name: 'Git & GitHub', Icon: FaGitAlt },
+			{ name: 'Netlify', Icon: SiNetlify },
+		],
+	},
+	// End Calculator App
 	// Start ECommerce Website
 	{
 		title: 'ECommerce Website',

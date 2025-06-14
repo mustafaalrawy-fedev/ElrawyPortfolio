@@ -52,7 +52,7 @@ const BottomNavBar = () => {
 	const { theme, toggleTheme } = useTheme();
 	const pathname = usePathname();
 	return (
-		<nav className='fixed bottom-6 left-1/2 -translate-x-1/2 w-full '>
+		<nav className='fixed bottom-7 left-1/2 -translate-x-1/2 w-full '>
 			<div className='container'>
 				<motion.ul
 					initial={{ opacity: 0, y: 50 }}

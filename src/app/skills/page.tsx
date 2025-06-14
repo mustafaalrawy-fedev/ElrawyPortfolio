@@ -17,6 +17,7 @@ import {
 	SiFigma,
 	FaPhp,
 	SiMysql,
+	SiAxios,
 } from '../../data/icons';
 
 const skillsList = [
@@ -47,7 +48,7 @@ const skillsList = [
 	},
 	{
 		title: 'React Router',
-		progress: 40,
+		progress: 60,
 		icon: SiReactrouter,
 	},
 	{
@@ -89,6 +90,11 @@ const skillsList = [
 		title: 'MySQL',
 		progress: 70,
 		icon: SiMysql,
+	},
+	{
+		title: 'Axios',
+		progress: 80,
+		icon: SiAxios,
 	},
 ];
 

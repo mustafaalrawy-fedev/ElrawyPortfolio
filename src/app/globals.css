@@ -41,7 +41,8 @@ button {
 	}
 	.main-section-space {
 		/* @apply mt-10 my-20 py-10; */
-		@apply mt-10 mb-14 py-10;
+		/* @apply mt-10 mb-14 py-10; */
+		@apply my-12 py-10;
 	}
 	.main-heading {
 		@apply text-3xl font-bold mb-6 text-black dark:text-white tracking-[5px] flex justify-center items-center;

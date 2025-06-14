@@ -67,7 +67,7 @@ const LandingMainContent = () => {
 						href={'/contact'}
 						className='flex items-center justify-center gap-x-4 py-2.5 px-5 border-2 border-btnBgColor dark:border-darkBtnBgColor rounded-md text-center text-sm sm:text-lg shrink-0 grow  hover:scale-105 transition-all duration-500 text-black dark:text-white group/item'
 					>
-						{/* <p>Contacts Info</p> */}
+						<p>Contacts Info</p>
 						<FaClipboardUser className='size-5 group-hover/item:animate-pulse' />
 					</Link>
 				</motion.aside>

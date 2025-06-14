@@ -11,6 +11,7 @@ import spaceTourismImg from '@/app/assets/spaceTourismWebsite.png';
 import profileImg from '@/app/assets/ProfilePhoto.jpg';
 import weatherAppLightImg from '@/app/assets/weatherAppLightMode.png';
 import weatherAppDarkImg from '@/app/assets/weatherAppDarkMode.png';
+import translateAppImg from '@/app/assets/translateApp.png';
 
 export {
 	todoAppLightImg,
@@ -26,4 +27,5 @@ export {
 	profileImg,
 	weatherAppLightImg,
 	weatherAppDarkImg,
+	translateAppImg,
 };
