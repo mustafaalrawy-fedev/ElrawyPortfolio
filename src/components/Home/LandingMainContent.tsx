@@ -73,8 +73,8 @@ const LandingMainContent = () => {
 				</motion.aside>
 			</main>
 			<motion.aside
-				initial={{ opacity: 0, x: 100 }}
-				animate={{ opacity: 1, x: 1 }}
+				initial={{ opacity: 0, x: 50 }}
+				animate={{ opacity: 1, x: 0 }}
 				transition={{ duration: 0.8, delay: 1.5, ease: 'easeInOut' }}
 				className='basis-1/2 items-end justify-items-end'
 			>
